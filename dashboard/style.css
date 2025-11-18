@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: all 0.3s ease; /* For animation_lr.js scale effect */
+}
+
+h1 {
+    color: #007bff;
+}
+
+#error {
+    margin-top: 20px;
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
